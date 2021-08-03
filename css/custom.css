@@ -1,0 +1,116 @@
+.custom-panel {
+    background-color: #08376B;
+    color: #fff !important;
+}
+
+.text-sm {
+    font-size: 10px;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.dashboard-icon {
+    font-size: 50px;
+}
+
+.dashboard-card {
+    height: 130px;
+}
+
+.crv-8 {
+    border-radius: 8px;
+}
+
+.crv-25 {
+    border-radius: 25px;
+}
+
+.br-1 {
+    border: 1px solid;
+}
+
+.bg-lightblue {
+    background-color: #E9F7FF;
+}
+
+.bg-circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.display-none {
+    display: none !important;
+}
+
+.display-inline {
+    display: inline-block !important;
+}
+
+.display-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display-center-y {
+    display: flex;
+    align-items: center;
+}
+
+.display-center-x {
+    display: flex;
+    justify-content: center;
+}
+
+.technical-support-table th {
+    background: #FCB414 !important;
+    color: #fff !important;
+}
+
+.technical-support-table td {
+    background: #E9ECEF;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.default-table tr td,
+.default-table tr th {
+    border-bottom: 5px solid white !important;
+}
+
+.jobview-card .card-header {
+    height: 150px;
+}
+
+@media (min-width: 1200px) {
+    .sl-pagebody {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1400px) {
+    .sl-pagebody {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1600px) {
+    .sl-pagebody {
+        width: 65%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 850px) {
+    .dashboard-card {
+        height: auto;
+    }
+}
